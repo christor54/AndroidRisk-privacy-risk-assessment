@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory
+       android:title="General"
+       android:key="pref_key_cat_general" >
+       
+	    <SwitchPreference
+	        android:key="pref_key_enabled"
+	        android:title="Enabled"
+	        android:summary="Whether the service is enabled or not."
+	        android:defaultValue="false" />
+
+   </PreferenceCategory>
+
+</PreferenceScreen>

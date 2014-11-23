@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Androrisk</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_main">Androrisk</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_threat_accesses">ThreatAccesses</string>
+    <string name="title_activity_threat_detail">ThreatDetail</string>
+    <string name="title_activity_threat_detailed">ThreatDetailed</string>
+    
+    
+     
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="90dp" 
+    android:orientation="horizontal"
+    android:weightSum="6">
+
+    <TextView
+        android:id="@+id/threat_name"
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:gravity="left|center_vertical"
+        android:text="threat t1"
+        android:textSize="@dimen/size_text_threat" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/threat_risk_assessment"
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:text="55"
+        android:textSize="@dimen/size_text_threat" >
+    </TextView>
+
+</LinearLayout> 
